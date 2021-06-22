@@ -1,5 +1,5 @@
 package bookingride;
 
-public class Driver
+public class Driver extends Person
 {
 }
