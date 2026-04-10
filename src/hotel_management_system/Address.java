@@ -1,0 +1,4 @@
+package hotel_management_system;
+
+public class Address {
+}
