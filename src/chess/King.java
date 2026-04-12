@@ -38,6 +38,24 @@ public class King extends Piece
             return false;
         }
         //Logic for returning true or false
+        // check for the white king castling
+        if (this.isWhite()
+                && start.getX() == 0 && start.getY() == 4 && end.getY() == 0) {
+            // confirm if white king moved to the correct ending box
+            if (Math.abs(end.getY() - start.getY()) == 2) {
+                // check if there the Rook is in the correct position
+                // check if there is no piece between Rook and the King
+                // check if the King or the Rook has not moved before
+                // check if this move will not result in king being attacked
+                // ...
+                this.setCastlingDone(true);
+                return true;
+            }
+        } else {
+            // check for the black king castling
+            this.setCastlingDone(true);
+            return true;
+        }
         return true;
     }
 

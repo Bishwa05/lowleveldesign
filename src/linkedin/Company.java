@@ -1,0 +1,19 @@
+package linkedin;
+
+public class Company {
+    private String name;
+    private String description;
+    private String type;
+    private int companySize;
+
+    private List<JobPosting> activeJobPostings;
+}
+
+public class JobPosting {
+    private Date dateOfPosting;
+    private String description;
+    private String employmentType;
+    private String location;
+    private boolean isFulfilled;
+}
+

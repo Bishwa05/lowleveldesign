@@ -1,0 +1,15 @@
+package caar_rental_system;
+
+public class CarRentalLocation {
+    private String name;
+    private Address location;
+
+    public Address getLocation();
+}
+
+public class CarRentalSystem {
+    private String name;
+    private List<CarRentalLocation> locations;
+
+    public boolean addNewLocation(CarRentalLocation location);
+}
