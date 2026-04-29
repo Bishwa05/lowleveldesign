@@ -1,5 +1,8 @@
 package library_management_system;
 
+import java.util.HashMap;
+import java.util.List;
+
 public class Catalog implements Search {
     private HashMap<String, List<Book>> bookTitles;
     private HashMap<String, List<Book>> bookAuthors;

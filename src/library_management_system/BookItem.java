@@ -1,5 +1,7 @@
 package library_management_system;
 
+import java.util.Date;
+
 public class BookItem extends Book {
     private String barcode;
     private boolean isReferenceOnly;

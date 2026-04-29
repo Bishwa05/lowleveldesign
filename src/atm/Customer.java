@@ -4,6 +4,8 @@ package atm;
 // assume that all class attributes are private and accessed through their respective
 // public getter method and modified only through their public setter function.
 
+import java.util.Date;
+
 public class Customer {
     private String name;
     private String email;

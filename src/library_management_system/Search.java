@@ -1,5 +1,8 @@
 package library_management_system;
 
+import java.util.Date;
+import java.util.List;
+
 public interface Search {
     public List<Book> searchByTitle(String title);
 

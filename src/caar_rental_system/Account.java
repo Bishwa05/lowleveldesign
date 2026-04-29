@@ -4,6 +4,9 @@ package caar_rental_system;
 // assume that all class attributes are private and accessed through their respective
 // public getter method and modified only through their public setter method.
 
+import java.util.Date;
+import java.util.List;
+
 public abstract class Account {
     private String id;
     private String password;
